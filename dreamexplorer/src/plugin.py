@@ -1,5 +1,5 @@
 #######################################################################
-#
+#    Renamed for vuplus usuage
 #    Dream-ExplorerII for Dreambox-Enigma2
 #    Coded by Vali (c)2009-2011
 #    Support: www.dreambox-tools.info
@@ -87,8 +87,8 @@ else:
 
 
 def Plugins(**kwargs):
-	list = [PluginDescriptor(name="Dream-Explorer", description=_("Explore your Dreambox."), where = [PluginDescriptor.WHERE_PLUGINMENU], icon="dreamexplorer.png", fnc=main)]
- 	list.append(PluginDescriptor(name=_("Dream-Explorer"), where = PluginDescriptor.WHERE_EXTENSIONSMENU, fnc=main))
+	list = [PluginDescriptor(name="VUplus-Explorer", description=_("Explore your VUplus."), where = [PluginDescriptor.WHERE_PLUGINMENU], icon="vu.png", fnc=main)]
+ 	list.append(PluginDescriptor(name=_("VUplus-Explorer"), where = PluginDescriptor.WHERE_EXTENSIONSMENU, fnc=main))
 	#list.append(PluginDescriptor(where = [PluginDescriptor.WHERE_SESSIONSTART],fnc = autostart))
 	return list
 
